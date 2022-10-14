@@ -1,6 +1,11 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+:root {
+  --primary-color: rgb(105 25 255);
+  --secondary-color: rgb(15 25 34);
+}
 
 html,
 body {
@@ -25,6 +30,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    
   }
 }
