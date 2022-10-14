@@ -13,6 +13,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
+          <header>
+            <section>
+              <nav>
+                <Image src=""/>
+                <ul>
+                  <li></li>
+                </ul>
+              </nav>
+            </section>
+          </header>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </main>
