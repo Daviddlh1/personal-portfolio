@@ -1,0 +1,70 @@
+.mainContainer {
+  min-height: 100vh;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.mainContainer h2,
+.mainContainer h1,
+.mainContainer h3 {
+  margin: 0;
+  font-weight: 100;
+}
+
+.mainContainer h1 {
+  color: var(--primary-color);
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.iconsContainer {
+  display: flex;
+  place-content: center;
+  gap: 1rem;
+}
+
+.iconsContainer a {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 9999px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 5px 2px var(--terciary-color);
+}
+
+.iconsContainer a:hover {
+  background-color: var(--terciary-color);
+  transform: scale(1.1);
+}
+
+.iconsContainer a span {
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.linkedInIcon {
+  background-image: url("../../public/menuIcons/linkedin_white_logo.svg");
+}
+
+.gitHubIcon {
+  background-image: url("../../public/menuIcons/github_white_icon.svg");
+}
+
+@media (min-width: 450px) {
+  .mainContainer {
+    align-items: center;
+    text-align: center;
+
+    justify-content: center;
+  }
+}

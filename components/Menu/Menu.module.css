@@ -1,8 +1,12 @@
 .container {
     width: 100%;
+    min-height: 90px;
+    height: auto;
 }
 
 .navBar {
+    position: fixed;
+    background-color: var(--secondary-color);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -10,8 +14,12 @@
     padding: 20px 30px;
 }
 
+.activeNavBar {
+    filter: blur(1px);
+}
+
 .optionsContainer {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     color: white;
     position: fixed;
     top: 0;
@@ -20,6 +28,7 @@
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
+    z-index: 10;
 }
 
 .logo {
