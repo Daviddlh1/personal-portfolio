@@ -1,2 +1,8 @@
+export * from './ContactMeSection';
+export * from './Footer';
+export * from './HeroSection';
 export * from './Menu/Icons';
-export { default as Menu } from './Menu/Menu';
+export * from './Menu';
+export * from './ProjectsSection';
+export * from './SkillsSection';
+export * from './ThisIsMeSection';

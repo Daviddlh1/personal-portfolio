@@ -1,9 +1,9 @@
 import logo from "public/vercel.svg";
-import menuIcon from "public/menu_icon.svg";
+import linkedInIcon from "public/menuIcons/linkedIn_icon.svg";
+import githubIcon from "public/menuIcons/github_white_icon.svg";
+import menuIcon from "public/menuIcons/menu_icon.svg";
 import Image from "next/image";
 import styles from "components/Menu/Menu.module.css";
-import linkedInIcon from "public/linkedIn_white_icon.svg";
-import githubIcon from "public/github_white_icon.svg";
 import { useState } from "react";
 
 export default function Menu({ active }) {
