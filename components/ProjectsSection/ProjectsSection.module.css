@@ -1,0 +1,9 @@
+.title {
+    color: var(--primary-color);
+}
+
+.projectsCardContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

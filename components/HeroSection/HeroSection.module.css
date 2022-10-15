@@ -1,42 +1,42 @@
 .mainContainer {
-  min-height: 100vh;
+  align-items: center;
+  background-color: var(--secondary-color);
   color: white;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   gap: 0.5rem;
-  background-color: var(--secondary-color);
+  justify-content: center;
+  min-height: 100vh;
   text-align: center;
+  text-align: center;
+  width: 100%;
 }
 
 .mainContainer h2,
 .mainContainer h1,
 .mainContainer h3 {
-  margin: 0;
   font-weight: 100;
+  margin: 0;
 }
 
 .mainContainer h1 {
   color: var(--primary-color);
-  font-weight: 100;
   font-size: 2rem;
+  font-weight: 100;
 }
 
 .iconsContainer {
   display: flex;
-  place-content: center;
   gap: 1rem;
+  place-content: center;
 }
 
 .iconsContainer a {
   background-color: var(--secondary-color);
-  padding: 10px;
   border-radius: 9999px;
-  transition: all 0.5s ease-in-out;
   box-shadow: 0px 0px 5px 2px var(--terciary-color);
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .iconsContainer a:hover {
@@ -45,11 +45,11 @@
 }
 
 .iconsContainer a span {
-  display: block;
-  width: 17px;
-  height: 17px;
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 17px;
+  width: 17px;
 }
 
 .linkedInIcon {
@@ -63,8 +63,7 @@
 @media (min-width: 450px) {
   .mainContainer {
     align-items: center;
-    text-align: center;
-
     justify-content: center;
+    text-align: center;
   }
 }

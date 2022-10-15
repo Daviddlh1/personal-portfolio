@@ -4,5 +4,6 @@ export * from './Footer';
 export * from './HeroSection';
 export * from './Layout';
 export * from './Menu';
+export * from './ProjectsCard';
 export * from './ProjectsSection';
 export * from './SkillsSection';

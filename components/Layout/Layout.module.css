@@ -1,9 +1,9 @@
 .layout {
+  background-color: var(--secondary-color);
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-color: var(--secondary-color);
-  color: white;
 }
 
 .layout section {
